@@ -1,0 +1,20 @@
+﻿Project1.obj : error LNK2019: 無法解析的外部符號 _clGetPlatformIDs@12 在函式 _main 中被參考
+Project1.obj : error LNK2019: 無法解析的外部符號 _clGetDeviceIDs@24 在函式 _main 中被參考
+Project1.obj : error LNK2019: 無法解析的外部符號 _clCreateContext@24 在函式 _main 中被參考
+Project1.obj : error LNK2019: 無法解析的外部符號 _clReleaseContext@4 在函式 "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_context *>::release(struct _cl_context *)" (?release@?$ReferenceHandler@PAU_cl_context@@@detail@cl@@SAHPAU_cl_context@@@Z) 中被參考
+Project1.obj : error LNK2019: 無法解析的外部符號 _clReleaseCommandQueue@4 在函式 "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_command_queue *>::release(struct _cl_command_queue *)" (?release@?$ReferenceHandler@PAU_cl_command_queue@@@detail@cl@@SAHPAU_cl_command_queue@@@Z) 中被參考
+Project1.obj : error LNK2019: 無法解析的外部符號 _clCreateBuffer@24 在函式 _main 中被參考
+Project1.obj : error LNK2019: 無法解析的外部符號 _clReleaseMemObject@4 在函式 _main 中被參考
+Project1.obj : error LNK2019: 無法解析的外部符號 _clCreateProgramWithSource@20 在函式 _main 中被參考
+Project1.obj : error LNK2019: 無法解析的外部符號 _clReleaseProgram@4 在函式 _main 中被參考
+Project1.obj : error LNK2019: 無法解析的外部符號 _clBuildProgram@24 在函式 _main 中被參考
+Project1.obj : error LNK2019: 無法解析的外部符號 _clCreateKernel@12 在函式 _main 中被參考
+Project1.obj : error LNK2019: 無法解析的外部符號 _clReleaseKernel@4 在函式 _main 中被參考
+Project1.obj : error LNK2019: 無法解析的外部符號 _clSetKernelArg@16 在函式 _main 中被參考
+Project1.obj : error LNK2019: 無法解析的外部符號 _clFlush@4 在函式 _main 中被參考
+Project1.obj : error LNK2019: 無法解析的外部符號 _clFinish@4 在函式 _main 中被參考
+Project1.obj : error LNK2019: 無法解析的外部符號 _clEnqueueReadBuffer@36 在函式 _main 中被參考
+Project1.obj : error LNK2019: 無法解析的外部符號 _clCreateCommandQueue@20 在函式 _main 中被參考
+Project1.obj : error LNK2019: 無法解析的外部符號 _clEnqueueTask@20 在函式 _main 中被參考
+C:\Intel\OpenCL\sdk\lib\x64\OpenCL.lib : warning LNK4272: 程式庫電腦類型 'x64' 與目標電腦類型 'x86' 發生衝突
+C:\程式設計\GPGPU demo\Project1\Debug\Project1.exe : fatal error LNK1120: 18 個無法解析的外部符號
